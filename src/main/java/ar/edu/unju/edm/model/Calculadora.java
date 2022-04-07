@@ -1,5 +1,8 @@
 package ar.edu.unju.edm.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Calculadora {
 	
 	private int n1;
@@ -50,5 +53,14 @@ public class Calculadora {
 		
 	}
 	
+	public int resolverPotencia() {
+		return (int) Math.pow(n1, n2);
 	
+	}
+	
+	public void resolverRaiz() {
+		System.out.println("La raiz cuadrada de: "+n1+" Es "+Math.sqrt(n1));
+
+		System.out.println("La raiz cuadrada de: "+n2+" Es "+Math.sqrt(n2));
+	}
 }
