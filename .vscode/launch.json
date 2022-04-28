@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Tp00CoraiteFacundoApplication<TP00CoraiteFacundo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "ar.edu.unju.edm.Tp00CoraiteFacundoApplication",
+            "projectName": "TP00CoraiteFacundo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -59,9 +59,10 @@ public class Calculadora {
 	
 	}
 	
-	public void resolverRaiz() {
-		System.out.println("La raiz cuadrada de: "+n1+" Es "+Math.sqrt(n1));
+	public double resolverRaiz() {
+		double radicando = 1/n1;
+		double raiz = Math.pow(n2, radicando);
 
-		System.out.println("La raiz cuadrada de: "+n2+" Es "+Math.sqrt(n2));
+		return raiz;
 	}
 }
